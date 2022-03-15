@@ -1,0 +1,58 @@
+body {
+    background-image: linear-gradient(to right, rgb(15, 126, 170), rgb(16, 163, 16));
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+}
+
+h1 {
+    color: White;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(218, 211, 211, 0.1);
+}
+
+p {
+    color: white;
+    font-size: 15px;
+}
+
+.heading {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.input input {
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+    border: solid white 2px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    display: block;
+}
+
+.Button button {
+    width: 200px;
+    padding: 10px;
+    border: solid white 2px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+    font-size: 20px;
+}
+
+#output {
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
+    background: rgba(109, 99, 99, 0.7);
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
